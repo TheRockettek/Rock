@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TheRockettek/Sandwich-Daemon/pkg/limiter"
+	limiter "../limiter"
 )
 
 // ErrNoSuchBucket is when a Bucket was requested that does not exist.
